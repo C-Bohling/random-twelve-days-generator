@@ -1,0 +1,55 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+body {
+    height: 100vh;
+    min-height: 30rem;
+}
+
+h1 {
+    font-weight:bolder;
+}
+
+.grid {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1.5fr 10.5fr 1.5fr;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-rem {
+    min-height:4rem;
+}
+
+#song {
+    color: green;
+    font-size: 1.75rem;
+}
+
+#randomize {
+    padding: 1.25rem 2rem;
+    background-color: rgb(25, 174, 25);
+    color: white;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    box-shadow: 0.25rem 0.25rem gray;
+}
+
+#randomize:hover {
+    background-color:rgb(255, 32, 32);
+}
+
+#randomize:active {
+    background-color: rgb(255, 32, 32);
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    box-shadow: 0 0 gray;
+}
