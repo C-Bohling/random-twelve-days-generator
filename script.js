@@ -104,7 +104,7 @@ const generateLyrics = () => {
         } else if (i === 10) {
             newLine = `${number} ${adjectives[i-7]} ${pluralNouns[i]}, and`;
         } else {
-            newLine = `${number} ${singularNoun} in a ${adjectives[i-11]} tree!`;
+            newLine = `${number} ${singularNoun} in a ${adjectives[i-7]} tree!`;
         }
         lyrics.push(newLine);
     })

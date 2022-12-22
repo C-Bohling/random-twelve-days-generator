@@ -16,13 +16,14 @@ h1 {
 .grid {
     height: 100%;
     display: grid;
-    grid-template-rows: 1.5fr 10.5fr 1.5fr;
+    grid-template-rows: 1fr 10.5fr 1.5fr;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
 .four-rem {
@@ -52,4 +53,18 @@ h1 {
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     box-shadow: 0 0 gray;
+}
+
+@media only screen and (max-width: 600px) {
+    #randomize {
+        width: 90%;
+    }
+
+    body {
+        min-height: 15rem;
+    }
+
+    html {
+        font-size: 14px;
+    }
 }
